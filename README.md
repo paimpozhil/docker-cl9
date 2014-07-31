@@ -23,8 +23,8 @@ docker run -td -p 3131:3131 cloud9
 
 now login to http://[hostip]:3131/ and with logins
 
-cl9
-c9isawesome
+un: c9 
+pass: awesome
 
 
 /data is the Docker Volume so if you need you can share it between any number of IDE's just with --volumes-from switch
