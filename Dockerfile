@@ -18,4 +18,5 @@ RUN cd /cloud9 && npm install
 
 EXPOSE 3131
 
-CMD "/cloud9/bin/cloud9.sh -l 0.0.0.0 --username cl9 --password c9isawesome" -w /data
+CMD /cloud9/bin/cloud9.sh -l 0.0.0.0 --username c9 --password awesome -w /data
+
